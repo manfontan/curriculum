@@ -1,5 +1,6 @@
 ## Description:
-# This script reads a PDF file containing a table and converts it to a markdown table using the PyMuPDF package.
+# This script reads a PDF file containing a table
+# and converts it to a markdown table using the PyMuPDF package.
 
 ## Dependencies:
 # pip install pymupdf
@@ -11,7 +12,7 @@
 # Python 3.12.4
 
 ## Installed packages
-# $ pip list           
+# $ pip list
 # Package         Version
 # --------------- -----------
 # numpy           2.0.1
@@ -25,8 +26,9 @@
 # tabulate        0.9.0
 # tzdata          2024.1
 
-# import the required packages
-import pymupdf # import package PyMuPDF
+"""Module providing functions to identify and extract tables from PDF files."""
+
+import pymupdf  # import package PyMuPDF
 
 # open the pdf file
 pdf = pymupdf.open("Sales_Report.pdf")
